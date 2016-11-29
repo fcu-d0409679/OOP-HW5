@@ -10,7 +10,7 @@ public class GYM {
 		int sp1,sp2;
 		do{
 		sp1=size.nextInt(2);//亂數產生0~9
-		sp2=size.nextInt(1);//亂數產生0~9
+		sp2=size.nextInt(2);//亂數產生0~9
 		}while(sp1==sp2);
 		
 		if(sp1==0){
